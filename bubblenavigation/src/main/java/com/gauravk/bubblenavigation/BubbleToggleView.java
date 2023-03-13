@@ -412,6 +412,13 @@ public class BubbleToggleView extends RelativeLayout {
     public void setTitleTypeface(Typeface typeface) {
         titleView.setTypeface(typeface);
     }
+    
+    /**
+     * added by @deepakghodase
+     */
+    public void setTitle(String title) {
+        titleView.setText(title);
+    }
 
     /**
      * Updates the measurements and fits the view
